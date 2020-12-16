@@ -1,0 +1,141 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; */
+  /* background-image:url('https://cdn.pixabay.com/photo/2020/10/26/15/21/post-it-5687624__340.png'); */
+  /* background-image:url('https://image.freepik.com/free-photo/list-pen-black-background-back-school_120608-60.jpg');
+  background-repeat: no-repeat;
+    background-color:black;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width:100%;
+  height:100%;
+  margin:0;
+} */
+
+
+body{
+  background-color:black;
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: #fff;
+  font-family: 'Hind', sans-serif;;
+  margin-top:5vw;
+}
+
+
+.styling {
+  font-weight: 800;
+  color: lime;
+}
+
+#deleteButton{
+  /* height:2.5vw; */
+  text-align:center;
+  color:red;
+  background-color:transparent;
+  font-size: .8rem;
+  margin: 0 0.5rem;
+  font-family: 'Hind', sans-serif;;
+  background: none;
+  border:none;
+  outline: none;
+  color: #E00;
+  cursor: pointer;
+
+}
+
+#deleteButton:hover{
+  border:.2vw solid yellow;
+}
+
+
+.addButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 0.25rem;
+  background-color: lime;
+  cursor: pointer;
+  font-size:4vw;
+}
+.addButton:hover {
+  opacity: 0.7;
+}
+
+
+form{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#formText{
+  padding: 0.5rem 1rem;
+  height: 3vw;
+  outline: none;
+  background-color: #fff;
+  width: 40vw;
+  font-size: 1.5rem;
+  margin: 0.25rem;
+  border-radius: 25px;
+  border: none;
+}
+
+#text{
+  padding:15px;
+  border-bottom:4px solid white;
+  
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  background-color: #000;
+}
